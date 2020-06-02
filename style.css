@@ -1,0 +1,16 @@
+.carousel-inner img {
+    width: 30%;
+    height: 300px;
+}
+.contact-form {
+    color: white;
+    background-color: rgb(50,50,50);
+}
+#pics {
+    background-color: rgb(50,50,50);
+    height: 300px;
+}
+img {
+    height: 300px;
+    width: auto;
+}

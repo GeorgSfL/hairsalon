@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Barber Shop</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div class="jumbotron">
+            <h1>Welcome to our Barber Shop</h1>
+            <p>We make gentlemen out of men</p>
+        </div>
+
+        <div id="pics" class="carousel slide" data-ride="carousel" align="center">
+
+            <ul class="carousel-indicators">
+                <li data-target="#pics" data-slide-to="0" class="active"></li>
+                <li data-target="#pics" data-slide-to="1"></li>
+                <li data-target="#pics" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://image.shutterstock.com/image-vector/barber-shop-logo-gothic-lettering-600w-1203598954.jpg" alt="Logo">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.friseur-job.de/wp-content/uploads/2017/05/kanis-cut-barber-goettingen_11-600x337.jpg" alt="The Salon">
+                </div>
+                <div class="carousel-item">
+                <img src="https://www.5min.at/wp-content/uploads/2020/05/barbershop-4484300_1920-1000x523.jpg" alt="Tools">
+                </div>
+            </div>
+                <a class="carousel-control-prev" href="#pics" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#pics" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+        </div>
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">service</th>
+                    <th scope="col">price</th>
+                    <th scope="col">time</th>
+                    <th scope="col">stylist</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">cut</th>
+                    <td>40€</td>
+                    <td>60min</td>
+                    <td>Kurt</td>
+                </tr>
+                <tr>
+                    <th scope="row">beard</th>
+                    <td>30€</td>
+                    <td>45min</td>
+                    <td>Andrew</td>
+                </tr>
+                <tr>
+                    <th scope="row">full service</th>
+                    <td>60€</td>
+                    <td>60min</td>
+                    <td>Martin</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row contact-form" id="footer">
+            <div class="col-lg-4">
+                <h4>How to find us:</h4>
+                <p>The Barber Shop</p>
+                <p>Cutting Street 123</p>
+                <p>45678 Knife</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Opening hours:</h4>
+                <p>Mo-Fr: 9-18</p>
+                <p>Sa: 10-20</p>
+            </div>
+            <div class="col-lg-4">
+                <button type="button" class="btn btn-dark btn-sm">Online reservation:</button>
+                <br>
+                <br>
+                <button type="button" class="btn btn-dark btn-sm">Leave a message:</button>
+            </div>
+
+        </div>
+
+    </body>
+</html>
